@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="../static/styles.css">
 </head>
 <body class="background">
-    <form method="POST">
+    <div class="config-header">
+        <h2>NextDNS Webapp Configuration</h2>
+    </div>
+
+    <form method="POST" class="config-form">
         <input name="api_key" placeholder="Api Key" type="password">
         <input name="config_id" placeholder="Config ID">
         <button type="submit">Save Configuration</button>
-        
     </form>
 </body>
 </html>

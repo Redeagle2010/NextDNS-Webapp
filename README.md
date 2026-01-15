@@ -1,2 +1,2 @@
 # NextDNS-Webapp
-NextDNS Webapp written in Flask
+NextDNS Webapp written in Flask 

@@ -1,7 +1,73 @@
-.background {
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #212529;
+    display: flex;      
+    flex-direction: column;  
+    align-items: center;       
+    justify-content: center;    
+    min-height: 100vh;        
+    margin: 0;                 
 }
 
 .head {
     background-color: #1c1f22;
+    width: 100%;
+}
+
+/* Header */
+.config-header {
+    color: white;
+    text-align: center;
+    width: 400px;
+    padding: 30px;
+    background-color: #0d6efd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 19px 10px rgba(63,63,63,0.58);
+    margin-bottom: 20px;        
+    
+}
+
+.config-form {
+    width: 400px;
+    padding: 30px;
+    background-color: #0d6efd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 19px 10px rgba(63,63,63,0.58);
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+
+.config-form:hover {
+    transform: scale(1.02);  
+    box-shadow: 0 15px 30px rgba(63,63,63,0.4);
+}
+
+.config-form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+}
+
+.config-form input:focus {
+    outline: none;
+}
+
+.config-form button {
+    width: 100%;
+    background-color: #1c1f22;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.config-form button:hover {
+    background-color: #16191d;
 }
