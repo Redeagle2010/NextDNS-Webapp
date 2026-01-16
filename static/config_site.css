@@ -19,28 +19,23 @@ body {
 .config-header {
     color: white;
     text-align: center;
-    width: 400px;
+    width: 250px;
     padding: 30px;
     background-color: #0d6efd;
     border-radius: 8px;
     box-shadow: 0px 0px 19px 10px rgba(63,63,63,0.58);
     margin-bottom: 20px;        
-    
 }
 
 .config-form {
-    width: 400px;
+    width: 250px;
     padding: 30px;
     background-color: #0d6efd;
     border-radius: 8px;
     box-shadow: 0px 0px 19px 10px rgba(63,63,63,0.58);
-    transition: transform 0.6s ease, box-shadow 0.6s ease;
 }
 
-.config-form:hover {
-    transform: scale(1.02);  
-    box-shadow: 0 15px 30px rgba(63,63,63,0.4);
-}
+
 
 .config-form input {
     width: 100%;
